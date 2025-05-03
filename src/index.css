@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Themes */
+body.dark {
+  @apply bg-gray-900 text-white;
+}
+body.light {
+  @apply bg-white text-black;
+}
+body.blue {
+  @apply bg-blue-950 text-white;
+}
+body.white {
+  @apply bg-neutral-100 text-black;
+}
+body.techy {
+  @apply bg-neutral-900 text-lime-400;
+}
+
+/* Fonts */
+body.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+body.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+body.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+body.font-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+body.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
